@@ -10,4 +10,6 @@ these are the aliasses i used to rip a channel
 
 
 alias edubois='youtube-dl --download-archive ~/Videos/edubois.txt -f best -citw -v https://www.youtube.com/ErikDubois'
+
+
 alias redubois='youtube-dl --playlist-reverse --download-archive ~/Videos/edubois.txt -f best -ciw -o "%(upload_date)s - %(title)s.%(ext)s" -v https://www.youtube.com/ErikDubois'
